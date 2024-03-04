@@ -1,0 +1,43 @@
+.hero {
+    width: 100%;
+    min-height: calc(100vh - 121px);
+    padding: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+.hero h1 {
+    margin:0;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 75px;
+    text-align: center;
+}
+.imageContainer {
+    position: relative;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+.hero h1 span {
+    color: #00ADB5;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 164px 170px;
+        flex-direction: row;
+        gap: 100px;
+    }
+    .hero h1 {
+        font-size: 96px;
+        line-height: 100px;
+        text-align: left;
+    }
+    .imageContainer {
+        gap:154px;
+    }
+}
